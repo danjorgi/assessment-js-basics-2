@@ -112,7 +112,7 @@ const foodArr = [
         category: 'entree',
         popularity: 3,
         rating: 7.5,
-        tags: ["veggies", "mushrooms", "olives", "pepperoni", "cheese"],
+        tags: ["mushrooms", "olives", "pepperoni", "cheese"],
     },
     {
         name: 'Alfredo',
@@ -128,7 +128,7 @@ const foodArr = [
         category: 'appetizer',
         popularity: 2,
         rating: 8.5,
-        tags: ["bread", "cheesy", "garlic"],
+        tags: ["bread", "cheese", "garlic"],
     },
     {
         name: 'Salad',
@@ -155,7 +155,8 @@ const foodArr = [
 
 //CODE HERE
 
-// const filteredFood = foodArr.filter(/* CALLBACK HERE */)
+const filteredFood = foodArr.filter((food) => food.tags.includes("cheese"));
+console.log(filteredFood)
 
 
 
