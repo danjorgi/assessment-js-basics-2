@@ -100,7 +100,7 @@ console.log(calcFinalPrice(100, 20, .06))s
 */
 
 //CODE HERE
-const customer {
+const customer = {
     name: 'Billy Bob',
     email: 'billybobbyboy@gmail.com',
     phone: '(801)-555-5555',
