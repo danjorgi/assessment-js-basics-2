@@ -59,7 +59,7 @@ const calcFinalPrice = (cartTotal, couponValue, tax) => {
     let finalPrice = cartTotal + taxAmount - couponValue;
     return finalPrice;
 }
-console.log(calcFinalPrice(100, 20, .06))
+console.log(calcFinalPrice(100, 20, .06))s
 
 //////////////////PROBLEM 3////////////////////
 /*  
@@ -83,7 +83,15 @@ console.log(calcFinalPrice(100, 20, .06))
 
 /*
     TEXT ANSWER HERE
-
+    The customer object should have the following propeties:
+    -Name: It's important to know who your customer is and have a record of your dealings with them.
+    Datatype: 'string'
+    -email: A primary method of communication to send information to the customer, such as deals, confirmations, or upcoming promotions.
+    Datatype: 'string'
+    -Address: An accurate address is important to be able to deliver food to a customer.
+    Datatype: multiple 'strings' such as 'street', 'city', 'state', 'zipcode'.
+    -Phone number: Need a secondary method of communication to be able to contact a customer in case of issues with an order or delivery.
+    Datatype: 'string'
 */
 
 /*
@@ -92,3 +100,14 @@ console.log(calcFinalPrice(100, 20, .06))
 */
 
 //CODE HERE
+const customer {
+    name: 'Billy Bob',
+    email: 'billybobbyboy@gmail.com',
+    phone: '(801)-555-5555',
+    address: {
+        street: '851 Magnolia',
+        city: 'Salt Lake City',
+        state: 'Utah',
+        zip: '84029',
+    },
+}
