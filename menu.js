@@ -70,7 +70,8 @@ console.log(pizza.tags[1])
 */
 
 //CODE HERE
-
+const {price} = pizza;
+console.log(price)
 
 /*
     Fourth, and last, destructure the category
@@ -80,7 +81,8 @@ console.log(pizza.tags[1])
 */
 
 //CODE HERE
-
+const {category} = pizza;
+console.log(category)
 
 //////////////////PROBLEM 3////////////////////
 /* 
