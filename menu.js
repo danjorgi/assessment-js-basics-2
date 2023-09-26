@@ -97,7 +97,48 @@ console.log(category)
 */
 
 //CODE HERE
-
+const foodArr = [
+    {
+        name: 'Cheese',
+        price: 12,
+        category: 'entree',
+        popularity: 2,
+        rating: 8,
+        tags: ["cheese", "xtra-large"],
+    },
+    {
+        name: 'Combo',
+        price: 16,
+        category: 'entree',
+        popularity: 3,
+        rating: 7.5,
+        tags: ["veggies", "mushrooms", "olives", "pepperoni", "cheese"],
+    },
+    {
+        name: 'Alfredo',
+        price: 17,
+        category: 'entree',
+        popularity: 4,
+        rating: 7,
+        tags: ["cheese", "white-sauce", "chicken", "meat"],
+    },
+    {
+        name: 'Breadsticks',
+        price: 10,
+        category: 'appetizer',
+        popularity: 2,
+        rating: 8.5,
+        tags: ["bread", "cheesy", "garlic"],
+    },
+    {
+        name: 'Salad',
+        price: 8,
+        category: 'side',
+        popularity: 5,
+        rating: 7,
+        tags: ["lettuce", "ranch", "vegetarian"],
+    },
+]
 
 
 //////////////////PROBLEM 4////////////////////
