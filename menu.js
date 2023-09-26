@@ -32,12 +32,12 @@
 
 //CODE HERE
 const pizza = {
-    name: 'Pepperoni'
-    price: 15
-    category: 'entree'
-    popularity: 1
-    rating: 9
-    tags: ["cheese", "red sauce", "pepperoni", "large"]
+    name: 'Pepperoni',
+    price: 15,
+    category: 'entree',
+    popularity: 1,
+    rating: 9,
+    tags: ["cheese", "red sauce", "pepperoni", "large"],
 }
 
 
@@ -50,7 +50,7 @@ const pizza = {
 */
 
 //CODE HERE
-
+console.log(pizza.popularity)
 
 /*
     Second, log the second tag in your pizza's
@@ -60,7 +60,7 @@ const pizza = {
 */
 
 //CODE HERE
-
+console.log(pizza.tags[1])
 
 /*
     Third, destructure the price off of the
